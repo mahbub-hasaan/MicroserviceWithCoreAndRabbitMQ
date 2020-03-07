@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MediatR/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "RabbitMicro.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "MediatR": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/RabbitMicro.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RabbitMicro.Domain.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/8.0.1": {
+      "sha512": "nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
+      "type": "package",
+      "path": "mediatr/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.8.0.1.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "RabbitMicro.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../RabbitMicro.Domain.Core/RabbitMicro.Domain.Core.csproj",
+      "msbuildProject": "../RabbitMicro.Domain.Core/RabbitMicro.Domain.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "MediatR >= 8.0.1",
+      "RabbitMicro.Domain.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Shakil\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Microservice\\RabitMicro\\RabbitMicro.Infra.Bus\\RabbitMicro.Infra.Bus.csproj",
+      "projectName": "RabbitMicro.Infra.Bus",
+      "projectPath": "F:\\Microservice\\RabitMicro\\RabbitMicro.Infra.Bus\\RabbitMicro.Infra.Bus.csproj",
+      "packagesPath": "C:\\Users\\Shakil\\.nuget\\packages\\",
+      "outputPath": "F:\\Microservice\\RabitMicro\\RabbitMicro.Infra.Bus\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Shakil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "F:\\Microservice\\RabitMicro\\RabbitMicro.Domain.Core\\RabbitMicro.Domain.Core.csproj": {
+              "projectPath": "F:\\Microservice\\RabitMicro\\RabbitMicro.Domain.Core\\RabbitMicro.Domain.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

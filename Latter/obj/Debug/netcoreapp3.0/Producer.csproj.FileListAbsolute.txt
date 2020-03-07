@@ -1,0 +1,13 @@
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.exe
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.deps.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.runtimeconfig.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.runtimeconfig.dev.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.dll
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Producer.pdb
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.csprojAssemblyReference.cache
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.AssemblyInfoInputs.cache
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.AssemblyInfo.cs
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.csproj.CopyComplete
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.dll
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Producer.pdb

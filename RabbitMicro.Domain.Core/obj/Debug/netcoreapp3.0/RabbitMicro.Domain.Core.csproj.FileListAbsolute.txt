@@ -1,0 +1,8 @@
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.deps.json
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.csprojAssemblyReference.cache
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.AssemblyInfoInputs.cache
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.AssemblyInfo.cs
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
+F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb

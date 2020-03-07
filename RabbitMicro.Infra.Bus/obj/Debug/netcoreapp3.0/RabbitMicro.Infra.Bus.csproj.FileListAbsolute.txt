@@ -1,0 +1,8 @@
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\bin\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.deps.json
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\bin\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.dll
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.csprojAssemblyReference.cache
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.AssemblyInfoInputs.cache
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.AssemblyInfo.cs
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.csproj.CopyComplete

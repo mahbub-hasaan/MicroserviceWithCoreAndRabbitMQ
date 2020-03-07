@@ -1,0 +1,13 @@
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.exe
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.deps.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.runtimeconfig.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.runtimeconfig.dev.json
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.dll
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\Latter.pdb
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.csprojAssemblyReference.cache
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.AssemblyInfoInputs.cache
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.AssemblyInfo.cs
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.dll
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.pdb
+F:\Microservice\RabitMicro\Latter\bin\Debug\netcoreapp3.0\RabbitMQ.Client.dll
+F:\Microservice\RabitMicro\Latter\obj\Debug\netcoreapp3.0\Latter.csproj.CopyComplete
