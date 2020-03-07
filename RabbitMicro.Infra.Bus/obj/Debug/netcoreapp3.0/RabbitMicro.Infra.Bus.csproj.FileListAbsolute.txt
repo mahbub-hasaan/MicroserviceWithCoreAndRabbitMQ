@@ -6,3 +6,6 @@ F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitM
 F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.AssemblyInfoInputs.cache
 F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.AssemblyInfo.cs
 F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.csproj.CopyComplete
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\bin\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.pdb
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.dll
+F:\Microservice\RabitMicro\RabbitMicro.Infra.Bus\obj\Debug\netcoreapp3.0\RabbitMicro.Infra.Bus.pdb
