@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hv4hXW7XN2KzBbcxrTDO1JaGkeEFw5+STW4tCDVZABtL3fMZOxvdk6rBUNRCksvLARSayzAlyqSpASJtXdSznA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shakil\\Documents\\GitHub\\MicroserviceWithCoreAndRabbitMQ\\RabbitMicro.Domain.Core\\RabbitMicro.Domain.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shakil\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Shakil\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Shakil\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Shakil\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

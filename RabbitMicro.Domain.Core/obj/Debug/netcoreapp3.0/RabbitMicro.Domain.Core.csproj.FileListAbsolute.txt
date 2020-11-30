@@ -6,3 +6,12 @@ F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\Rabbi
 F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
 F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
 F:\Microservice\RabitMicro\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.deps.json
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\bin\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.csprojAssemblyReference.cache
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.AssemblyInfo.cs
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.dll
+C:\Users\Shakil\Documents\GitHub\MicroserviceWithCoreAndRabbitMQ\RabbitMicro.Domain.Core\obj\Debug\netcoreapp3.0\RabbitMicro.Domain.Core.pdb
