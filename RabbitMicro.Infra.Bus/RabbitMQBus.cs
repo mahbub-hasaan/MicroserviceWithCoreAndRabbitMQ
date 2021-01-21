@@ -13,13 +13,13 @@ using RabbitMQ.Client.Events;
 
 namespace RabbitMicro.Infra.Bus
 {
-    public sealed class RabbitMQBus : IEventBus
+    public sealed class RabbitMqBus : IEventBus
     {
         private readonly IMediator _mediator;
         private readonly Dictionary<string, List<Type>> _handlers;
         private readonly List<Type> _eventType;
 
-        public RabbitMQBus(IMediator mediator)
+        public RabbitMqBus(IMediator mediator)
         {
             _mediator = mediator;
             _handlers = new Dictionary<string, List<Type>>();
@@ -33,15 +33,13 @@ namespace RabbitMicro.Infra.Bus
         public void Publish<T>(T @event) where T : Event
         {
             var factory = new ConnectionFactory() { HostName = "localhost" };
-            using (var connection = factory.CreateConnection())
-            using (var channel = connection.CreateModel())
-            {
-                var eventName = @event.GetType().Name;
-                channel.QueueDeclare(eventName, false, false, false, null);
-                var message = JsonConvert.SerializeObject(@event);
-                var body = Encoding.UTF8.GetBytes(message);
-                channel.BasicPublish("", eventName, null, body);
-            }
+            using var connection = factory.CreateConnection();
+            using var channel = connection.CreateModel();
+            var eventName = @event.GetType().Name;
+            channel.QueueDeclare(eventName, false, false, false, null);
+            var message = JsonConvert.SerializeObject(@event);
+            var body = Encoding.UTF8.GetBytes(message);
+            channel.BasicPublish("", eventName, null, body);
         }
 
 
@@ -62,10 +60,10 @@ namespace RabbitMicro.Infra.Bus
                 _handlers.Add(eventName, new List<Type>());
             }
 
-            if (_handlers[eventName].Any(s => s.GetType() == handlerType))
+            if (_handlers[eventName].Any(s => s == handlerType))
             {
                 throw new ArgumentException(
-                    $"Handler type {handlerType.Name} already is registerd for '{eventName}'", nameof(handlerType)
+                    $"Handler type {handlerType.Name} already is registers for '{eventName}'", nameof(handlerType)
                     );
             }
             _handlers[eventName].Add(handlerType);
@@ -79,18 +77,18 @@ namespace RabbitMicro.Infra.Bus
                 HostName = "localhost",
                 DispatchConsumersAsync=true
             };
-            var connnection = factory.CreateConnection();
-            var channel = connnection.CreateModel();
+            var connection = factory.CreateConnection();
+            var channel = connection.CreateModel();
             var eventName = typeof(T).Name;
             channel.QueueDeclare(eventName, false, false, false, null);
 
             var consumer = new AsyncEventingBasicConsumer(channel);
-            consumer.Received += Cosumer_Recived;
+            consumer.Received += CosumerRecived;
             channel.BasicConsume(eventName, true, consumer);
 
         }
 
-        private async Task Cosumer_Recived(object sender, BasicDeliverEventArgs e)
+        private async Task CosumerRecived(object sender, BasicDeliverEventArgs e)
         {
             var eventName = e.RoutingKey;
             var message = Encoding.UTF8.GetString(e.Body);
@@ -100,7 +98,7 @@ namespace RabbitMicro.Infra.Bus
             }
             catch(Exception ex)
             {
-
+                Console.WriteLine(ex.Message);
             }
         }
 
@@ -116,7 +114,7 @@ namespace RabbitMicro.Infra.Bus
                     var eventType = _eventType.SingleOrDefault(t => t.Name == eventName);
                     var @event = JsonConvert.DeserializeObject(message, eventType);
                     var conreteType = typeof(IEventHandler<>).MakeGenericType(eventType);
-                    await (Task)conreteType.GetMethod("Handle").Invoke(handler, new object[] { @event });
+                    await (conreteType.GetMethod("Handle") != null ? (Task) conreteType.GetMethod("Handle")?.Invoke(handler, new object[] { @event }) : null);
                 }
             }
         }
